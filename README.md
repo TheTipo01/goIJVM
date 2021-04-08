@@ -1,6 +1,6 @@
 # goIJVM
 [![Go Report Card](https://goreportcard.com/badge/github.com/TheTipo01/goIJVM)](https://goreportcard.com/report/github.com/TheTipo01/goIJVM)
-[![Build Status](https://travis-ci.com/TheTipo01/goIJVM.svg?branch=main)](https://travis-ci.com/TheTipo01/goIJVM)
+[![Build Status](https://travis-ci.com/TheTipo01/goIJVM.svg?branch=master)](https://travis-ci.com/TheTipo01/goIJVM)
 
 An [IJVM](https://en.wikipedia.org/wiki/IJVM) interpreter, written in go.
 
