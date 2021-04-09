@@ -357,23 +357,23 @@ func handleInstruction(is string) {
 
 	// Prints status of the stack and the variables
 	case "DEBUG":
+		fmt.Printf("\n\n---DEBUG---\nInstruction counter: %d\n", ic)
+
 		if len(stack) > 0 {
-			fmt.Printf("\n\nStack:\n")
+			fmt.Printf("\nStack:\n")
 			for i, s := range stack {
 				fmt.Printf("%d: %d\n", i, s)
 			}
-
-			fmt.Printf("\n\n")
 		}
 
 		if len(variables) > 0 {
-			fmt.Printf("\n\nVariables:\n")
+			fmt.Printf("\nVariables:\n")
 			for k, v := range variables {
 				fmt.Printf("%s: %d\n", k, v)
 			}
-
-			fmt.Printf("\n\n")
 		}
+
+		fmt.Printf("\n---DEBUG---\n\n")
 
 		ic++
 		break
